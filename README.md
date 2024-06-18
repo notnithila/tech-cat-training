@@ -8,7 +8,7 @@
 
 ## Learning Plan
 
-![Data Engineering-Page-5](images/Data Engineering-Page-5.png)
+![Data-Engineering-Page-5](images/Data-Engineering-Page-5.png)
 
 ## AI and Data Analytics Landscape
 
