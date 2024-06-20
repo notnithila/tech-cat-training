@@ -1,5 +1,11 @@
 # AWS Glue and Athena
 
+> Note: If you run into an issue using the Cloud Shell due to limit number of concurent users per region you can try a different region like us-east-2. If you do some of the commands will change as shown:
+```shell
+aws s3api create-bucket --bucket [your-bucket-name]-raw --region us-east-2 --create-bucket-configuration LocationConstraint=us-east-2
+```
+You will need to add `--create-bucket-configuration LocationConstraint=us-east-2` 
+
 ### Building a Serverless Data Lake 
 
 ---
