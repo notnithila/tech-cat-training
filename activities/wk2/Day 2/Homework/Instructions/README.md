@@ -138,71 +138,58 @@ Harold is ecstatic that you were able to help him prove that the algorithmic tra
 
 1. Use the provided starter Jupyter Notebook to house the code for your data preparation, analysis, and visualizations. Put any analysis or answers to assignment questions in raw text (markdown) cells in the report.
 
-2. Submit your notebook to a new GitHub repository.
-
-3. Add the URL of your GitHub repository to your assignment when submitting via Bootcamp Spot.
-
 ---
 
 ### Requirements
 
-#### Data Preparation  (20 points)
+#### Data Preparation
 
 ##### To receive all points, you must:
 
-* Use Pandas to read each CSV file in as a DataFrame. (3 points)
-* Detect and remove all null values. (4 points)
-* Convert the S&P 500 closing prices to daily returns. (5 points)
-* Join the Whale Returns, Algorithmic Returns, and the S&P 500 Returns into a single DataFrame with columns for each portfolio's individual returns. (8 points)
+* Use Pandas to read each CSV file in as a DataFrame.
+* Detect and remove all null values. 
+* Convert the S&P 500 closing prices to daily returns.
+* Join the Whale Returns, Algorithmic Returns, and the S&P 500 Returns into a single DataFrame with columns for each portfolio's individual returns. 
 
-#### Quantitative Analysis (20 points)
-
-##### To receive all points, your code must:
-
-* Calculate and plot the daily and cumulative returns of all portfolios. (2 points)
-* Create a box plot for each of the returns. (2 points)
-* Calculate the standard deviation for each portfolio. (2 points)
-* Determine which portfolios are riskier than the S&P 500. (3 points)
-* Calculate the annualized standard deviation for each portfolio. (2 points)
-* Calculate and plot the rolling standard deviation for all portfolios using a 21-day window. (3 points)
-* Calculate and plot the correlation between each stock to determine which portfolios may mimic the S&P 500. (3 points)
-* Choose one portfolio, then calculate and plot it's beta as compared to the S&P 500. (3 points)
-
-#### Sharpe Ratios (15 points)
+#### Quantitative Analysis 
 
 ##### To receive all points, your code must:
 
-* Use the daily returns to calculate the Sharpe ratios. (4 points)
-* Visualize the Sharpe ratios using a bar plot. (3 points)
-* Determine whether the algorithmic strategies outperform both the market (S&P 500) and the whales portfolios. (8 points)
+* Calculate and plot the daily and cumulative returns of all portfolios. 
+* Create a box plot for each of the returns. 
+* Calculate the standard deviation for each portfolio. 
+* Determine which portfolios are riskier than the S&P 500. 
+* Calculate the annualized standard deviation for each portfolio. 
+* Calculate and plot the rolling standard deviation for all portfolios using a 21-day window. 
+* Calculate and plot the correlation between each stock to determine which portfolios may mimic the S&P 500. 
+* Choose one portfolio, then calculate and plot it's beta as compared to the S&P 500. 
 
-#### Custom Portfolio (15 points)
-
-##### To receive all points, your code must:
-
-* Use the Google Finance function to choose a portfolio. (3 points)
-* Download the data needed as CSV files and calculate the portfolio returns. (4 points)
-* Add the portfolio returns to the DataFrame with the other portfolios, then analyze and compare all portfolios. (8 points)
-
-#### Coding Conventions and Formatting (10 points)
+#### Sharpe Ratios 
 
 ##### To receive all points, your code must:
 
-* Place imports at the beginning of the file, just after any module comments and docstrings and before module globals and constants. (3 points)
-* Name functions and variables with lowercase characters and with words separated by underscores. (2 points)
-* Follow Don't Repeat Yourself (DRY) principles by creating maintainable and reusable code. (3 points)
-* Use concise logic and creative engineering where possible. (2 points)
+* Use the daily returns to calculate the Sharpe ratios. 
+* Visualize the Sharpe ratios using a bar plot. 
+* Determine whether the algorithmic strategies outperform both the market (S&P 500) and the whales portfolios. 
 
-#### Deployment and Submission (10 points)
-
-##### To receive all points, you must:
-
-* Submit a link to a GitHub repository that’s cloned to your local machine and contains your files. (5 points)
-* Include appropriate commit messages in your files. (5 points)
-
-#### Code Comments (10 points)
+#### Custom Portfolio
 
 ##### To receive all points, your code must:
 
-* Be well commented with concise, relevant notes that other developers can understand. (10 points)
+* Use the Google Finance function to choose a portfolio. 
+* Download the data needed as CSV files and calculate the portfolio returns. 
+* Add the portfolio returns to the DataFrame with the other portfolios, then analyze and compare all portfolios. 
+
+#### Coding Conventions and Formatting
+
+##### To receive all points, your code must:
+
+* Place imports at the beginning of the file, just after any module comments and docstrings and before module globals and constants. 
+* Name functions and variables with lowercase characters and with words separated by underscores. 
+* Follow Don't Repeat Yourself (DRY) principles by creating maintainable and reusable code. 
+* Use concise logic and creative engineering where possible. 
+
+#### Code Comments 
+
+* Be well commented with concise, relevant notes that other developers can understand.
 
