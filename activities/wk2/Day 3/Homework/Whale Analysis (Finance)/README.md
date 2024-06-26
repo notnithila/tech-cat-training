@@ -43,6 +43,10 @@ First, read and clean several CSV files for analysis. The CSV files include whal
 
 4. The whale portfolios and algorithmic portfolio CSV files contain daily returns, but the S&P 500 CSV file contains closing prices. Convert the S&P 500 closing prices to daily returns.
 
+    1. Hint: Search how to calculate Daily Return?
+
+    2. Hint: Search what does pandas `pct_change` do? https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pct_change.html 
+
 5. Join `Whale Returns`, `Algorithmic Returns`, and the `S&P 500 Returns` into a single DataFrame with columns for each portfolio's returns.
 
     ![returns-dataframe.png](Images/returns-dataframe.png)
@@ -86,6 +90,8 @@ Investment managers and their institutional investors look at the return-to-risk
 1. Using the daily returns, calculate and visualize the Sharpe ratios using a bar plot.
 
 2. Determine whether the algorithmic strategies outperform both the market (S&P 500) and the whales portfolios.
+   1. 
+
 
 ### Create a Custom Portfolio
 
