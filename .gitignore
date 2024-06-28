@@ -1,3 +1,6 @@
 .DS_Store
 .virtual_documents/
 .ipynb_checkpoints
+*.cfg
+cred.py
+*.parquet
