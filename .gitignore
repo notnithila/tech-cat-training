@@ -4,3 +4,4 @@
 *.cfg
 cred.py
 *.parquet
+__pycache__/
