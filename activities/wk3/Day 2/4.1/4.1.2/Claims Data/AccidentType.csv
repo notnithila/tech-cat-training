@@ -1,0 +1,5 @@
+AccidentTypeID,AccidentType
+0,Vandalism
+1,Theft
+2,Fire
+3,Collision

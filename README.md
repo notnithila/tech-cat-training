@@ -22,3 +22,17 @@
 ## AWS 
 
 * Web Console Access: https://developintelligence.signin.aws.amazon.com/console
+
+  
+
+## Python/Pandas Resources
+
+* https://www.w3schools.com They have tutorials for Python, Pandas, and SQL
+* https://automatetheboringstuff.com Great book for getting up to speed on Python
+* https://wesmckinney.com/book/ Python for Data Analysis by the author of the Pandas library 
+
+## SQL Resources
+
+* https://www.w3schools.com They have tutorials for Python, Pandas, and SQL
+* https://mode.com/sql-tutorial/introduction-to-sql 
+* 

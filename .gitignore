@@ -5,3 +5,5 @@
 cred.py
 *.parquet
 __pycache__/
+solutions/
+solution/
