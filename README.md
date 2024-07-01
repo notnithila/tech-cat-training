@@ -35,4 +35,9 @@
 
 * https://www.w3schools.com They have tutorials for Python, Pandas, and SQL
 * https://mode.com/sql-tutorial/introduction-to-sql 
-* 
+
+## Snowflake
+
+* [Snowflake Portal](https://wpa36811.snowflakecomputing.com/)
+* [Snowflake TPCH Benchmark Data Model](https://docs.snowflake.com/en/user-guide/sample-data-tpch)
+
