@@ -1,0 +1,17 @@
+## SQL Activity 3.1.3 SOLVED
+
+**Exercise 1: Complex Filtering**
+
+```sql
+SELECT P_NAME, P_RETAILPRICE
+FROM PART
+WHERE P_RETAILPRICE >= 50 AND P_RETAILPRICE <= 100;
+```
+
+**Exercise 2: Date Filtering**
+
+```sql
+SELECT O_ORDERDATE, O_TOTALPRICE
+FROM ORDERS
+WHERE YEAR(O_ORDERDATE) = 1994 AND MONTH(O_ORDERDATE) <> 12;
+```
