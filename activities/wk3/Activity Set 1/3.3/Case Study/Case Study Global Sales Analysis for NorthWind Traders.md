@@ -14,7 +14,7 @@ Ms. Clark has been noticing some fluctuations in sales and wants to gain a deepe
 2. **Top Performing Products:** "I've heard from our sales team that certain products are flying off the shelves, while others aren't doing as well. Could you identify the top 10 most ordered products? It would help to see the product name and the total quantity ordered."
 3. **Customer Loyalty:** "We've had a customer loyalty program running for a couple of years now. I'm curious to see which customers have placed the most orders with us. Let's say, the top 20? It might be a good idea to send them a thank-you note or a special discount."
 4. **Regional Sales Performance:** "Our company operates in various regions. I'd like an overview of the total sales value for each region. It would help us allocate resources more efficiently."
-5. Building**Market Segment Insights:** "We cater to different market segments. Can you breakdown the total sales for each market segment? I've heard the 'BUILDING' and 'AUTOMOBILE' segments have been doing exceptionally well."
+5. Building **Market Segment Insights:** "We cater to different market segments. Can you breakdown the total sales for each market segment? I've heard the 'BUILDING' and 'AUTOMOBILE' segments have been doing exceptionally well."
 6. **Potential Issues:** "Lastly, I want to ensure we're not missing out on any opportunities. Could you list out customers who haven't placed any orders with us? It might be a good idea to have the sales team reach out to them."
 
 ------
