@@ -1,5 +1,7 @@
 # The Hartford: Tech Catalyst Data Engineering 
 
+[toc]
+
 
 
 ![image-20240612110851319](images/image-20240612110851319.png)
@@ -9,6 +11,18 @@
 ## Learning Plan
 
 ![Data-Engineering-Page-5](images/Data-Engineering-Page-5.png)
+
+## Key Data Engineering Skills 
+
+[Source](https://www.tealhq.com/skills/data-engineer)
+
+![image-20240703100341669](images/image-20240703100341669.png)
+
+![image-20240703100355201](images/image-20240703100355201.png)
+
+![image-20240703100418439](images/image-20240703100418439.png)
+
+
 
 ## AI and Data Analytics Landscape
 
