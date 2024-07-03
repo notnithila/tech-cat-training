@@ -19,20 +19,20 @@ Using the dataset provided, your aim is to identify patterns and trends in insur
 
    1. Use the provided DDL in the `Reference Material.md`
    2. Perform simple ETL to migrate data from source to target tables
-      1. **Source Database**: `INSURANCE`
-      2. **Source Schema**: `CLAIMS`
+      1. **Source Database**: `TECHCATALYST`
+      2. **Source Schema**: `PUBLIC`
          1. **Source Tables:**
-            1. `BODY_STYLE`
-            2. `ACCIDENT_TYPE`
-            3. `ACCIDENTS`
-            4. `GENDER_MARITAL_STATUS`
-            5. `INSURANCE_COVERAGE`
-            6. `POLICYHOLDER`
-            7. `STATES`
-            8. `VEHICLES`
-            9. `VEHICLE_USE`
-            10. `VEHICLE_USE_CODE`
-      3. **Target Database**: `CAPSTONE`
+            1. `INS_BODY_STYLE`
+            2. `INS_ACCIDENT_TYPE`
+            3. `INS_ACCIDENTS`
+            4. `INS_GENDER_MARITAL_STATUS`
+            5. `INS_INSURANCE_COVERAGE`
+            6. `INS_POLICYHOLDER`
+            7. `INS_STATES`
+            8. `INS_VEHICLES`
+            9. `INS_VEHICLE_USE`
+            10. `INS_VEHICLE_USE_CODE`
+      3. **Target Database**: `TECHCATALYST`
       4. **Target Schema**: Use your dedicated schema e.g. `TATWAN` 
          1. **Target Tables**
             1. `FACT_ACCIDENTS`
