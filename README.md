@@ -4,7 +4,7 @@
 * [Key Data Engineering Skills](#key-data-engineering-skills)
 * [AI and Data Analytics Landscape](#ai-and-data-analytics-landscape)
 * [AWS](#aws)
-* [Python Resources](#python-resources)
+* [Python Resources](#python-pandas-resources)
 * [SQL Resources](#sql-resources)
 * [Snowflake](#snowflake)
 
@@ -45,7 +45,7 @@
 
   
 
-## Python/Pandas Resources
+## Python Pandas Resources
 
 * https://www.w3schools.com They have tutorials for Python, Pandas, and SQL
 * https://automatetheboringstuff.com Great book for getting up to speed on Python
