@@ -1,6 +1,12 @@
 # The Hartford: Tech Catalyst Data Engineering 
 
-[toc]
+* [Learning Plan](#learning-plan)
+* [Key Data Engineering Skills](#key-data-engineering-skills)
+* [AI and Data Analytics Landscape](#ai-and-data-analytics-landscape)
+* [AWS](#aws)
+* [Python Resources](#python-resources)
+* [SQL Resources](#sql-resources)
+* [Snowflake](#snowflake)
 
 
 
