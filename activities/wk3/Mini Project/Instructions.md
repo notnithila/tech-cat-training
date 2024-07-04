@@ -14,7 +14,6 @@ Using the dataset provided, your aim is to identify patterns and trends in insur
      - Run some basic queries, find number of records per table, and do some general exploration 
      - Document your queries 
    - Look for any missing or anomalous data. If found, discuss how you would handle these inconsistencies.
-
 2. **ETL Process:** Transform the provided OLTP dataset to fit into a data model (denormalized schema) suitable for analytics in a data warehouse.
 
    1. Use the provided DDL in the `Reference Material.md`
@@ -43,23 +42,33 @@ Using the dataset provided, your aim is to identify patterns and trends in insur
             6. `DIM_GENDER_MARITAL_STATUS`
             7. `DIM_STATES`
    3. Pay attention to column name changes from source to target (see `Reference Material` document which contains the DDL scripts)
-   
-3. **Data Analysis using SQL: (using the new Dimensional Model you just created)** 
 
-   - Write SQL queries to extract data that will help answer the following questions:
+## Deliverables 
 
-     a. Which body style of vehicle has the most claims?  
+**Delivered in PPT format to your instructor** 
 
-     ​     Which year has the most claims?
+* **Reference Architecture Diagram** (visually explain the process you took)
 
-     ​     What are the Top 5 Year & Months? For example August, 2020 and August 2021
+* Explain your process in one-slide (what did you do?, How you did it? What challenges did face?  ..etc. )
 
-     ​     What are the most common Vehicle Use (Top 3)?
+* **Data Analysis using SQL: (using the new Dimensional Model you just created)** 
 
-     b. How many policyholders have more than one claim in the dataset? 
-     
-     c. What's the average estimated cost and actual repair cost per accident type? 
-     
-     d. Are there any correlations between vehicle use (e.g., work, pleasure) and accident type? 
-     
-     e. Which state has the highest discrepancy between estimated and actual repair costs?
+  - Write SQL queries to extract data that will help answer the following questions:
+
+    a. Which body style of vehicle has the most claims?  
+
+    ​     Which year has the most claims?
+
+    ​     What are the Top 5 Year & Months? For example August, 2020 and August 2021
+
+    ​     What are the most common Vehicle Use (Top 3)?
+
+    b. How many policyholders have more than one claim in the dataset? 
+
+    c. What's the average estimated cost and actual repair cost per accident type? 
+
+    d. Are there any correlations between vehicle use (e.g., work, pleasure) and accident type? 
+
+    e. Which state has the highest discrepancy between estimated and actual repair costs?
+
+  
