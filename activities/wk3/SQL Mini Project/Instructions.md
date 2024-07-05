@@ -53,22 +53,31 @@ Using the dataset provided, your aim is to identify patterns and trends in insur
 
 * **Data Analysis using SQL: (using the new Dimensional Model you just created)** 
 
-  - Write SQL queries to extract data that will help answer the following questions:
+  Write SQL queries to extract data that will help answer the following questions:
 
-    a. Which body style of vehicle has the most claims?  
+  - Identify the top cities with the highest number of claims using SQL
 
+  - Provide a summary of basic statistics of the data (3-4 summary analysis). Using to SQL to include:
+
+    - **Count:** Number of claims, number of policyholders, number of claims per location
+    - **Sum:** Total claim amount, total claim amount per accident type
+    - **Average:** Average claim amount, average age of policyholders
+    - **Minimum and Maximum:** Minimum and maximum claim amounts. Youngest and oldest policyholders
+  
+  -  Which body style of vehicle has the most claims?  
+  
     ​     Which year has the most claims?
-
+  
     ​     What are the Top 5 Year & Months? For example August, 2020 and August 2021
-
+  
     ​     What are the most common Vehicle Use (Top 3)?
-
-    b. How many policyholders have more than one claim in the dataset? 
-
-    c. What's the average estimated cost and actual repair cost per accident type? 
-
-    d. Are there any correlations between vehicle use (e.g., work, pleasure) and accident type? 
-
-    e. Which state has the highest discrepancy between estimated and actual repair costs?
-
+  
+  - How many policyholders have more than one claim in the dataset? 
+  
+  - What's the average estimated cost and actual repair cost per accident type? 
+  
+  - Are there any correlations between vehicle use (e.g., work, pleasure) and accident type? 
+  
+  - Which state has the highest discrepancy between estimated and actual repair costs?
+  
   
