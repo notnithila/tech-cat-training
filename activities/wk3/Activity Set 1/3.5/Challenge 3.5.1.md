@@ -1,4 +1,4 @@
-# Challenge 4.5.1
+# Challenge 3.5.1
 
 All of the exercises add window functions to the following query:
 
