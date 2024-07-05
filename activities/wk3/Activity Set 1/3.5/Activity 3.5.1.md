@@ -33,3 +33,14 @@ Add `avg_per_year` as shown below:
 
 ![image-20231027210053462](images/image-20231027210053462.png)
 
+## Exercise 14-4
+
+Get the top 3 months for each year in terms of Total Sales
+
+**CHALLENGING**
+
+* Hint: consider using CTEs
+* Hint: consider using RANK()
+
+![image-20240705135159713](images/image-20240705135159713.png)
+
