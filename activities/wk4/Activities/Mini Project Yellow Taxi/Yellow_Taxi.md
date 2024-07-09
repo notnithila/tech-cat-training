@@ -174,3 +174,15 @@ Example output from the VIEW
 Finance Team asked you to access the VIEW you just created but you realized that IT security team does not allow anyone to access the VIEW without proper permission. Finance team can access the VIEW under one condition: They can only see `Vendor_name` **VeriFone** and `Payment_Type` **Credit Card**.
 
 Due to the security constraints, you will need to create a new view for Finance that they can access for their own reprint needs with such restrictions. 
+
+
+
+## TASK 6
+
+* Create 2-3 slide presentation for your team 
+  * One slide described your process (What you did, how you didi it ..etc)
+  * Another 1-2 slides, summarize your findings regarding the Yellow Taxis Data. Any interesting insights? 
+* Be ready to present your slides. Make sure you write your team names.
+
+
+
