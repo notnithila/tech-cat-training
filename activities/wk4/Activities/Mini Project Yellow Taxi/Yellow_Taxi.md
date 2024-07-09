@@ -168,3 +168,9 @@ In this exercise, you will create a view named `v_yellow_tripdata` that transfor
 Example output from the VIEW
 
 ![image-20240709130112005](images/image-20240709130112005.png)
+
+## TASK 5
+
+Finance Team asked you to access the VIEW you just created but you realized that IT security team does not allow anyone to access the VIEW without proper permission. Finance team can access the VIEW under one condition: They can only see `Vendor_name` **VeriFone** and `Payment_Type` **Credit Card**.
+
+Due to the security constraints, you will need to create a new view for Finance that they can access for their own reprint needs with such restrictions. 
