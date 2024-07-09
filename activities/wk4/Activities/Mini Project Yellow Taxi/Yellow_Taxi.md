@@ -98,7 +98,12 @@ Hint: one option you can consider is using the `SUBSTR` function
 
 ![image-20240709125916835](images/image-20240709125916835.png)
 
-* Find the percentage of trips that had tips in March 2024.
+* * Find the percentage of trips that had tips across all months
+    * User `MONTH_FILE`
+    * HINT: USE `CASE WHEN` 
+      * `TIP_AMOUNT` indicates the tip amount for each trip. If the value is greater than 0, it means a tip was given.
+      * Use the `CASE` statement within the `SUM` function to count the number of trips with a `TIP_AMOUNT` greater than 0. Divide the number of trips with tips by the total number of trips and multiply by 100 to get the percentage.
+
 
 ![image-20240709131339955](images/image-20240709131339955.png)
 
