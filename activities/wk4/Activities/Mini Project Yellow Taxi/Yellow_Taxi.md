@@ -40,11 +40,17 @@ CREATE OR REPLACE TRANSIENT TABLE TECHCATALYST_DE.TATWAN.YELLOW_TAXI (
 * **NOTE**
   * `TPEP_PICKUP_DATETIME` in the source data is a numeric field and not timestamp. You will need to convert it into a Time Stamp. 
     * Hint: For example, the numeric value "1706731228000000" is a Unix timestamp in microseconds. To convert this to a proper `TIMESTAMP` in Snowflake, you can use the `TO_TIMESTAMP` function, which can handle this conversion.
-      * You will need to divide the value by 1,000,000 to get it into seconds (the standard Unix timestamp) in order for the conversion to work
+      * Two options:
+        * You can use `scale` in to_timestamp
+          * For seconds, scale = `0`.
+          * For milliseconds, scale = `3`.
+          * For microseconds, scale = `6`.
+          * For nanoseconds, scale = `9`.
+        * OR You can simply divide the value by 1,000,000 to get it into seconds (the standard Unix timestamp) in order for the conversion to work
   * Same applied to `TPEP_DROPOFF_DATETIME`
   * `MONTH_FILE` is based on the year/month from the file name. For example, ‘2024-01’, ‘2024-02’, ‘2024-03’ this way you can reference the data from each file
   * `MONTH_SERVICE` and `YEAR_SERVICE` are the month and year extracts from the `TPEP_PICKUP_DATETIME` after conversion. Hint: You may need to convert the datetime to date first.
-
+  
 * Write your `INSERT INTO` statement for each file from the Public schema into the table in your schema. In the end, your YELLOW_TAXI table should contain the following number of records 
 
 **Write your own query**
