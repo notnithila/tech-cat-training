@@ -7,7 +7,7 @@
 1. Use the `LAG` function to get the previous day's closing price.
 2. Calculate the difference between the current day's closing price and the previous day's closing price.
 
-![image-20240710145934164](images/image-20240710145934164.png)
+![image-20240710173416575](images/image-20240710173416575.png)
 
 
 
