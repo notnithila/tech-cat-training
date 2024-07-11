@@ -33,7 +33,7 @@
 |                               | - Advantage 1                                                |
 |                               | - Advantage 2                                                |
 |                               | - Advantage 3                                                |
-|                               | Potential drawbacks or limitations.                          |
+|                               | Potential drawbacks or limitations (if any).                 |
 |                               | - Drawback 1                                                 |
 |                               | - Drawback 2                                                 |
 |                               | - Drawback 3                                                 |
@@ -74,7 +74,7 @@
 |                               | - Advantage 1                                                |
 |                               | - Advantage 2                                                |
 |                               | - Advantage 3                                                |
-|                               | Potential drawbacks or limitations.                          |
+|                               | Potential drawbacks or limitations (if any).                 |
 |                               | - Drawback 1                                                 |
 |                               | - Drawback 2                                                 |
 |                               | - Drawback 3                                                 |
@@ -110,7 +110,7 @@
 |                               | - Advantage 1                                                |
 |                               | - Advantage 2                                                |
 |                               | - Advantage 3                                                |
-|                               | Potential drawbacks or limitations.                          |
+|                               | Potential drawbacks or limitations (if any).                 |
 |                               | - Drawback 1                                                 |
 |                               | - Drawback 2                                                 |
 |                               | - Drawback 3                                                 |
@@ -151,22 +151,22 @@
 |                               | - Advantage 1                                                |
 |                               | - Advantage 2                                                |
 |                               | - Advantage 3                                                |
-|                               | Potential drawbacks or limitations.                          |
+|                               | Potential drawbacks or limitations (if any).                 |
 |                               | - Drawback 1                                                 |
 |                               | - Drawback 2                                                 |
 |                               | - Drawback 3                                                 |
 
-## 5. Data Masking
+## 5. Data Masking & Row Access Policies
 
-**Understanding Data Masking**:
+**Understanding Data Masking & Row Access Policies**:
 
-- What is Data Masking in Snowflake and how does it work?
+- What is Data Masking/Row Access Policies in Snowflake and how does it work?
 - Technical details and implementation strategies.
 
 **Use Cases for Data Masking**:
 
-- Identify at least three practical use cases where Data Masking would be beneficial.
-- Explain why Data Masking is advantageous in these scenarios.
+- Identify at least three practical use cases where Data Masking/Row Access Policies would be beneficial.
+- Explain why Data Masking/Row Access Policies  is advantageous in these scenarios.
 
 **Pros and Cons**:
 
@@ -187,7 +187,36 @@
 |                               | - Advantage 1                                                |
 |                               | - Advantage 2                                                |
 |                               | - Advantage 3                                                |
+|                               | Potential drawbacks or limitations (if any).                 |
+|                               | - Drawback 1                                                 |
+|                               | - Drawback 2                                                 |
+|                               | - Drawback 3                                                 |
+
+## 6.  UDF and Stored Procedures 
+
+#### UDFs and Stored Procedures
+
+What is the difference between UDF and Stored Procedures? 
+
+| **Feature**                   | **Details**                                                  |
+| ----------------------------- | ------------------------------------------------------------ |
+| **Understanding the Feature** | How do User-Defined Functions (UDFs) and Stored Procedures work in Snowflake? |
+|                               | - **UDFs**:                                                  |
+|                               | - **Stored Procedures**:                                     |
+|                               | - Technical details include syntax, creation, and execution. |
+| **Use Cases**                 | Identify at least three practical use cases where UDFs and Stored Procedures would be beneficial. |
+|                               | - Use Case 1                                                 |
+|                               | - Use Case 2                                                 |
+|                               | - Use Case 3                                                 |
+|                               |                                                              |
+|                               |                                                              |
+|                               |                                                              |
+| **Pros and Cons**             | List some of the advantages of using UDFs and Stored Procedures. |
+|                               | - Advantage 1                                                |
+|                               | - Advantage 2                                                |
+|                               | - Advantage 3                                                |
 |                               | Potential drawbacks or limitations.                          |
 |                               | - Drawback 1                                                 |
 |                               | - Drawback 2                                                 |
 |                               | - Drawback 3                                                 |
+
