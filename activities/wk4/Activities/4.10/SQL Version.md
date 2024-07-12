@@ -75,3 +75,5 @@ INSERT INTO TECHCATALYST_DE.<YOURSCHEMA>.sales_data (Store, Product, Sales, Date
 
 ![image-20240712144501909](images/image-20240712144501909.png)
 
+
+

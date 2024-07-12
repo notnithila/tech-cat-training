@@ -5,6 +5,8 @@
 cred.py
 *.parquet
 __pycache__/
-# solutions/
-# solution/
-# *Solution*
+solutions/
+solution/
+*Solution*
+Test*
+.gitignore
