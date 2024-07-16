@@ -1,6 +1,6 @@
 # Apache NiFi
 
-### Download
+### Download Option 
 
 https://nifi.apache.org/download/
 
@@ -53,6 +53,54 @@ Use the provided Username and Password to login to the NiFi Web Portal.
 You will then see the main NiFi canvas
 
 ![image-20240715131036879](images/image-20240715131036879.png)
+
+### Docker Option
+
+Run the following 
+
+```bash
+docker pull apache/nifi:2.0.0-M4
+```
+
+Once the image is downloaded you can create a container using the following:
+
+```bash
+docker run --name nifi \
+  -p 8443:8443 \
+  -d \
+  -v /home/parallels/Downloads:/opt/nifi/input-files \
+  apache/nifi:2.0.0-M4
+
+```
+
+* Change `home/parallels/Downloads` to that of your host machine 
+  * `/opt/nifi/input-files` is the location in the container 
+
+
+
+**VSCode**
+
+![image-20240716131948269](images/image-20240716131948269.png)
+
+
+
+* Download the Docker extension for VSCode
+
+![image-20240716131832632](images/image-20240716131832632.png)
+
+If you see Permission Denied message in VSCode then run the following from the Ubuntu terminal:
+
+```bash
+sudo groupadd docker
+```
+
+then 
+
+```bash
+sudo usermod -aG docker $USER
+```
+
+Then try VSCode again 
 
 ---
 
