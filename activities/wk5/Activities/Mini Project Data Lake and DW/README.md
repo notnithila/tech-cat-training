@@ -12,7 +12,7 @@ In this project, you'll apply what you've learned about AWS S3 Data Lakes, Snowf
 
 To complete the project, you will need to extract data from S3 source (RAW JSON files), create a Data Lake in S3 for storing the data as Parquet files after transformation (aka staging area), then load the data from the Data Lake into tables on Snowflake after you execute the necessary SQL statements that create the analytics tables from these staging tables.
 
-![Data Engineering-Page-20](images/Data Engineering-Page-20.jpg)
+![Data-Engineering-Page-20](images/Data-Engineering-Page-20.jpg)
 
 You'll be working with two datasets that reside in S3. Here are the S3 links for each:
 
