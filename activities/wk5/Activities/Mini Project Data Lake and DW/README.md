@@ -119,7 +119,7 @@ Below are steps you can follow to complete each component of this project.
 
 #### Build ETL Pipeline
 
-1. Implement the logic  to load data from S3 (t`echcatalyst-public/song_data` and `techcatalyst-public/log_data)`  to **staging area in S3**  (`techcatalyst-public/<yourname>/dw_stage/<yourfiles>`).
+1. Implement the logic  to load data from S3 (`techcatalyst-public/song_data` and `techcatalyst-public/log_data)`  to **staging area in S3**  (`techcatalyst-public/dw_stage/<yourname>/<subject>/<yourfiles>`).
 
 ![image-20240717135233117](images/image-20240717135233117.png)
 
@@ -129,7 +129,7 @@ Below are steps you can follow to complete each component of this project.
 
 #### Document Process
 
-Here's a [guide](https://www.markdownguide.org/basic-syntax/) on Markdown Syntax. You will need to publish the Markdown report to your GitHub repo.
+Here's a [guide](https://www.markdownguide.org/basic-syntax/) on Markdown Syntax. You will need to publish the Markdown report to your **GitHub repo**.
 
 Do the following steps in your `README.md` file.
 
