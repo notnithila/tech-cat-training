@@ -20,6 +20,11 @@
 
 ![Data-Engineering-Page-5](images/Data-Engineering-Page-5.png)
 
+## Student GitHub Profiles 
+
+* [Peter Alonzo](https://github.com/peteralonzo/techcatalyst-de)
+* 
+
 ## Key Data Engineering Skills 
 
 [Source](https://www.tealhq.com/skills/data-engineer)
