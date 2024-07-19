@@ -17,6 +17,10 @@ Research these components:
 * Apache Zeppelin
 * Apache Trino
 * Apache Phoenix
+* Apache Storm
+* Apache Drill
+* Apache Presto
+* Apache Zeppelin
 
 
 
