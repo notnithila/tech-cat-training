@@ -22,8 +22,37 @@
 
 ## Student GitHub Profiles 
 
-* [Peter Alonzo](https://github.com/peteralonzo/techcatalyst-de)
-* 
+* [Peter Alonzo](https://github.com/peteralonzo)
+
+* [Gina Mastrorilli](https://github.com/gmast-17)
+
+* [Ben Combs](https://github.com/bencombsHIG)
+
+* [Joseph Cocozza](https://github.com/JC05267)
+
+* [Alina Baby](https://github.com/alina-hartford)
+
+* [Zayd Ghaffar](https://github.com/ZaydGhaffar123)
+
+* [Aryan Zodge](https://github.com/aryan-zodge-thehartford)
+
+* [Jason Juncker](https://github.com/jasonjuncker)
+
+* [Nithila Annadurai](https://github.com/nithilannadurai)
+
+* [Andy Amos Mensah](https://github.com/andythehart)
+
+* [Kaitlyn Borski](https://github.com/kaitlynborski)
+
+* [Samee Malik](https://github.com/Smalik45)
+
+* Nityasriya Patturi
+
+* Isabella Recine
+
+  
+
+  
 
 ## Key Data Engineering Skills 
 
