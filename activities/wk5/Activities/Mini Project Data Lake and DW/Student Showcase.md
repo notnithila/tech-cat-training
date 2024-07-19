@@ -9,7 +9,7 @@
 
 
 
-
+https://github.com/sriyapatturi/Mini-ETL-Snowflake-Spark-Patturi
 
 #### [Gina Mastrorilli Solution Page](https://github.com/gmast-17/techcatalyst-de-GM/tree/main/activities/week5/Mini_Project%20)
 
