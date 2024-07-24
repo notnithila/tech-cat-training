@@ -14,6 +14,7 @@
 - **AWS Translate**: Discover how to translate text into different languages.
 - **AWS Macie**: Investigate how to identify and protect sensitive data.
 - **AWS Bedrock**: Explore generative AI models for creating personalized content.
+- **AWS Transcribe**: See how Amazon Transcribe creates a text copy of speech in real time
 
 **Step 3: Develop Use Cases**
 
