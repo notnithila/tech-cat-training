@@ -8,5 +8,6 @@ __pycache__/
 solutions/
 solution/
 *Solution*
-Test*
+# Test*
 .gitignore
+instructor/
