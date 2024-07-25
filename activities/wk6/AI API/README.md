@@ -1,13 +1,35 @@
-# Utilize AWS AI Services (Comprehend and Rekognition)
+# Lab: Utilize AWS AI Services 
 
-* You will be using Boto3 library 
-* If you create an `aws.cfg` **please make sure you do not upload that file into your GitHub**. Instead create a `.gitignore` file and add `aws.cfg` to it.
+## Case Study Overview
 
-# Sentiment Analysis 
+A client is considering using AWS AI services to meet their business needs instead of hiring a data science team to develop custom models. They need to analyze both images and text data and have heard of AWS Comprehend and AWS Rekognition but are unsure if these services are suitable. You have been asked to conduct a small Proof of Concept (POC) using a handful of datasets to evaluate these services. Your assessment will be critical in determining the client's direction. They are considering migrating to AWS, and this use-case is significant enough that they are willing to fully move into the cloud based on your findings.
 
-There are two CSV datasets: `product` and `review`. The client wants to combine the datasets and add a sentiment column. Finally, they want a quick summary on the Sentiment counts displayed as Bar Graph using Python. Finally,  write it back to the S3 bucket as `/YOURNAME/product_sentiment.csv`
+## Client Data
 
-What is the overall impression/sentiment for their products?
+- **S3 Bucket**: For the purpose of this POC, the client has placed their data in the `techcatalyst-public` bucket under `resources` in the `us-west-2` region.
+- **Production System**
+  - **Product System**: Product reviews are stored in a local PostgreSQL database.
+  - **License Plate Images**: Captured images are stored on a shared network folder on-premise.
+
+## Task Requirements
+
+1. **Sentiment Analysis on Product Reviews**
+2. **License Plate State Identification**
+
+You will use the Boto3 library for interacting with AWS services. Ensure that any AWS configuration file (`aws.cfg`) is excluded from version control by adding it to a `.gitignore` file.
+
+## Sentiment Analysis
+
+**Data Sources**:
+
+- `product.csv`
+- `review.csv`
+
+**Tasks**:
+
+1. Combine the datasets and add a sentiment column using AWS Comprehend.
+2. Generate a bar graph summarizing sentiment counts.
+3. Save the updated dataset as `/YOURNAME/product_sentiment.csv` in the S3 bucket.
 
 
 
@@ -17,11 +39,17 @@ What is the overall impression/sentiment for their products?
 
 ![image-20240725145642642](images/image-20240725145642642.png)
 
+## License Plate State Identification
 
+**Data Sources**:
 
-# License Plate States
+- License plate images from various states.
 
-The client has difference images of licenses plates from different states. They want to get a summary counts of license plates by state. They also want to create a table (DataFrame) that labels each image with the proper state and write it back to the S3 bucket as `/YOURNAME/image_state.csv`
+**Tasks**:
+
+1. Use AWS Rekognition to identify the state from each license plate image.
+2. Create a summary table of license plate counts by state.
+3. Save the labeled dataset as `/YOURNAME/image_state.csv` in the S3 bucket.
 
 HINT: When using Rekognition to read from an S3 bucket, it should be on the same region. 
 
@@ -37,21 +65,29 @@ HINT: When using Rekognition to read from an S3 bucket, it should be on the same
 
 ![image-20240725150225590](images/image-20240725150225590.png)
 
-## Upload the images
+## Plot Upload
 
-The two plots you created you will need to save them as `.jpg` files and then upload them to the same location as the `csv` files you just created.
+**Tasks**:
 
-**HINT**
+1. Save the bar graph (sentiment analysis) as a `.jpg` file.
+2. Save the license plate state summary plot as a `.jpg` file.
+3. Upload both plots to the same location in the S3 bucket as the CSV files.
+
+### Hints
+
+**Saving plots as .jpg files in Python**:
 
 ```python
-# You will need to import Matplotlib 
+# Import Matplotlib
 import matplotlib.pyplot as plt
 
-# Create a plot
-ax = # Save your pandas plot as a variable 
-
-# Save the plot as a JPG file
+# Generate and save a plot
+ax = # Your plot code here
 plt.savefig('yourfilename.jpg', format='jpg')
 ```
 
-Then upload the image into S3.
+### Conclusion
+
+Summarize your findings and create an architecture diagram of the proposed solution. Provide feedback and recommendations on whether the client should move all their assets to AWS based on the POC results.
+
+
