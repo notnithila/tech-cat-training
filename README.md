@@ -46,9 +46,9 @@
 
 * [Samee Malik](https://github.com/Smalik45)
 
-* Nityasriya Patturi
+* [Nityasriya Patturi](https://github.com/sriyapatturi)
 
-* Isabella Recine
+* [Isabella Recine](https://github.com/isabella-recine)
 
   
 
