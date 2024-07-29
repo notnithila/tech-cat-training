@@ -23,3 +23,9 @@ Create a chart that visualizes starting median salaries, by major, against midca
 "The Economic Guide to Picking A College Major". (2014). Ben Casselman. [FiveThirtyEight](https://fivethirtyeight.com/)
 [https://github.com/fivethirtyeight/data/tree/master/college-majors](https://github.com/fivethirtyeight/data/tree/master/college-majors)
 
+![image-20240729194051398](images/image-20240729194051398.png)
+
+![image-20240729194100261](images/image-20240729194100261.png)
+
+![image-20240729194125828](images/image-20240729194125828.png)
+

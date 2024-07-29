@@ -16,17 +16,21 @@ In this activity, you’ll find the “most fun” neighborhoods in New York Cit
 
   * Each zip code in the city should be displayed on the map, as in the following image. Location is everything!
 
-  ![Images/barmap1.png](Images/barmap1.png)
+  ![image-20240729194628732](images/image-20240729194628732.png)
 
 **Part 2**
 
 * Create a bar chart that breaks down, per borough, the type of building versus the number of complaints received, as in the following image:
 
-  ![Images/barmap2.png](Images/barmap2.png)
+  ![image-20240729194642303](images/image-20240729194642303.png)
+
+![image-20240729194701149](images/image-20240729194701149.png)
 
 **Part 3**
 
 * Create a dashboard of the worksheets you just created. If you finish early, feel free to create a few more interesting visualizations!
+
+![image-20240729194720043](images/image-20240729194720043.png)
 
 ## References
 

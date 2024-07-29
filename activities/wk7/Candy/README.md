@@ -14,4 +14,13 @@ You will now create charts to compare a few candies. The charts themselves are q
 
 ESPN Internet Ventures. (2014). The Ultimate Halloween Candy Power Ranking. [https://www.kaggle.com/fivethirtyeight/the-ultimate-halloween-candy-power-ranking/](https://www.kaggle.com/fivethirtyeight/the-ultimate-halloween-candy-power-ranking/)
 
-![my control](minions.jpg)
+
+
+![image-20240729193815849](images/image-20240729193815849.png)
+
+![image-20240729193844854](images/image-20240729193844854.png)
+
+![image-20240729193900460](images/image-20240729193900460.png)
+
+
+
