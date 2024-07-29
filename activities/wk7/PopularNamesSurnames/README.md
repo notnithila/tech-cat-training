@@ -23,4 +23,11 @@ In this activity, you’ll create visualizations using data on popular baby name
 Mona Chalabi, Andrew Flowers. (2014). Dear Mona, What's The Most Common Name In America? FiverThirtyEight [https://fivethirtyeight.com/](https://fivethirtyeight.com/)
 [https://github.com/fivethirtyeight/data/tree/master/most-common-name](https://github.com/fivethirtyeight/data/tree/master/most-common-name)
 
+![image-20240729202316974](images/image-20240729202316974.png)
 
+![image-20240729202334446](images/image-20240729202334446.png)
+
+![image-20240729202344131](images/image-20240729202344131.png)
+![image-20240729202355566](images/image-20240729202355566.png)
+
+ 
