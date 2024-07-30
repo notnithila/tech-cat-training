@@ -22,3 +22,13 @@ Make sure the view is full screen
 
 ![image-20240730133848239](images/image-20240730133848239.png)
 
+**Create a Products Hierarchy and a Geography Hierarchy**
+
+![image-20240730141211412](images/image-20240730141211412.png)
+
+**Map Formatting**
+
+Show Profit by State 
+
+![image-20240730141824486](images/image-20240730141824486.png)
+
