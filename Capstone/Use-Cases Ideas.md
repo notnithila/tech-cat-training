@@ -91,7 +91,6 @@ The NYC TLC trip record data is a rich dataset that can be leveraged for a varie
 
 ### Additional Considerations
 
-- **Encourage Creativity:** Allow students to propose their own analysis questions based on their interests.
-- **Provide Guidance:** Offer suggestions and support throughout the analysis process.
-- **Data Visualization:** Emphasize the importance of data visualization to communicate findings effectively.
-- **Storytelling:** Encourage students to create a compelling narrative around their analysis results.
+- **Encourage Creativity:** Students can propose their own analysis questions based on their interests.
+- **Data Visualization:** An emphasize on the importance of data visualization to communicate findings effectively.
+- **Storytelling:** An emphasize to create a compelling narrative around your analysis results.

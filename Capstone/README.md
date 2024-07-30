@@ -4,7 +4,7 @@
 
 #### Project Overview
 
-In this capstone project, you will utilize High Volume For-Hire Vehicle (HVFHV) data, Yellow Taxi Data, and Green Taxi Data. Your goal is to extract data from AWS S3 (Raw), perform necessary transformations, and load it into a Conformed S3 bucket, and finally into a Transformed S3 bucket before loading it into Snowflake for final analysis using Tableau. You will use various AWS services and tools, including AWS Lambda, Python/Jupyter Notebook, Databricks PySpark, AWS Glue Studio or AWS Glue Databrew, AWS Glue Crawler and Catalog, AWS Athena, Snowflake, and Tableau.
+In this capstone project, you will utilize High Volume For-Hire Vehicle (HVFHV) data, Yellow Taxi Data, and Green Taxi Data. Your goal is to extract data from AWS S3 (Raw), perform necessary transformations, and load it into a Conformed S3 bucket, and finally into a Transformed S3 bucket before loading it into Snowflake for final analysis using Tableau or Thoughtspot. You will use various AWS services and tools, including AWS Lambda, Python/Jupyter Notebook, Databricks/PySpark, AWS Glue Studio or AWS Glue Databrew, AWS Glue Crawler and Catalog, AWS Athena, Snowflake, and Tableau.
 
 #### Data Description
 
@@ -15,26 +15,27 @@ In this capstone project, you will utilize High Volume For-Hire Vehicle (HVFHV) 
 #### Requirements
 
 1. **Data Extraction and Loading to S3 Raw**
-
-   - Load all provided datasets into the S3 Raw  bucket in their respective folders.
+   - Extract and examine all provided datasets from the S3 Raw  bucket in their respective folders.
    
      - **Yellow Taxi Data**: `s3://capstone-techcatalyst-raw/yellow_taxi/`
      - **Green Taxi Data**: `s3://capstone-techcatalyst-raw/green_taxi/`
      - **HVFHV Data**: `s3://capstone-techcatalyst-raw/hvfhv/`
-
+   
 2. **Data Transformation and Loading to S3 Conformed** 
    - Combine Yellow and Green Taxi datasets.
    
      - Remove duplicate records.
      - Distinguish between Yellow and Green Taxi data by adding a `Taxi_Type` column.
      - Add additional date features such as: Month, Year, Weekday/Weekend, Day of Week Name.
+     - Check for data quality issues 
    
    - For HVFHV data:
    
      - Combine the datasets.
      - Add additional date features similar to Yellow and Green Taxi data.
+     - Check for data quality issues
    
-   - Store the transformed data in the S3 Conformed bucket.
+   - Store the transformed data into the S3 Conformed bucket.
    
      - Yellow/Green Taxi Data: Partitioned by Year/Month/Taxi_Type (Yellow/Green)
    
@@ -48,28 +49,27 @@ In this capstone project, you will utilize High Volume For-Hire Vehicle (HVFHV) 
    - Calculate Trip Duration.
    - Calculate Trip Distance % of Total Trip Distance for the day.
    - Calculate Trip Duration % of Total Time Spent Active for the day.
+   - Any additional transformation to support the use-case selected 
    
 4. **Data Loading to S3 Transformed**
-
-   - Perform final transformations and load the data into the S3 Transformed bucket.
-
+   - Perform all final transformations and load the data into the S3 Transformed bucket.
+   
      - Ensure the data is clean, partitioned correctly, and optimized for loading into Snowflake.
-
+   
 5. **Data Loading to Snowflake**
-   - Create Snowflake stages and transient tables.
+   - Create Snowflake stages and transient tables for the files you need to load from S3 into Snowflake.
    - Load data from `S3 Transformed` bucket into Snowflake.
    - Create Snowflake views for analysis.
-   - Include additional lookup tables based on the Data Dictionary files for:
+   - Include additional lookup tables based on the `Data Dictionary` files provided, for example:
      - RateCodeId
      - Payment_Type
      - Store_and_fwd_flag
      - Trip_type
      - VendorID
-   - Perform necessary joins and add meaning to the data using these lookup files.
+   - Perform necessary joins and **add meaning to the data** utilizing the lookup files/tables.
    
-6. **Final Analysis Using Tableau**
-
-   - Connect Tableau to Snowflake.
+6. **Final Analysis Using Tableau or ThoughtSpot**
+   - Connect Tableau/ThoughtSpot to Snowflake.
    - Perform analysis and create visualizations based on the transformed data.
    - Create meaningful dashboards to present your findings.
 
@@ -78,23 +78,23 @@ In this capstone project, you will utilize High Volume For-Hire Vehicle (HVFHV) 
 - **AWS S3**: For storing raw, conformed, and transformed data.
 - **AWS Lambda**: For serverless data processing.
 - **Python/Jupyter Notebook**: For data analysis and transformation.
-- **Databricks PySpark**: For distributed data processing.
+- **Databricks/EMR PySpark**: For distributed data processing.
 - **AWS Glue Studio or AWS Glue Databrew**: For ETL operations.
 - **AWS Glue Crawler and Catalog**: For metadata management.
 - **AWS Athena**: For querying data in S3.
 - **Snowflake**: For data warehousing and advanced analytics.
-- **Tableau**: For data visualization and reporting.
+- **Tableau/ThoughtSpot**: For data visualization and reporting.
 
 #### Instructions
 
 1. **Data Extraction and Loading to S3 Raw**
    - Upload all datasets to the specified `S3 Raw` bucket locations.
 2. **Data Transformation and Loading to S3 Conformed**
-   - Use AWS Lambda, Python/Jupyter Notebook, or Databricks PySpark to clean, deduplicate, and transform the data.
+   - Use AWS Lambda, Python/Jupyter Notebook, or Databricks/EMR PySpark to clean, deduplicate, and transform the data.
    - Create the necessary additional date features.
    - Store the transformed data in the `S3 Conformed` bucket with the correct partitioning.
 3. **Additional Transformations**
-   - Calculate the required metrics (Trip Duration, Trip Distance %, Trip Duration %).
+   - Calculate the required metrics (for example Trip Duration, Trip Distance %, Trip Duration %).
 4. **Data Loading to S3 Transformed**
    - Perform final transformations.
    - Load the clean and partitioned data into the `S3 Transformed` bucket.
@@ -113,9 +113,21 @@ In this capstone project, you will utilize High Volume For-Hire Vehicle (HVFHV) 
 #### Additional Considerations
 
 - Ensure data quality and consistency throughout the ETL process.
-- Optimize transformations for performance and scalability.
-- Document your process and findings thoroughly.
-- Consider any additional useful transformations or features that can add value to your analysis.
+- Optimize transformations for performance and scalability. You will need to provide performance statistics (e.g. ETL processing time …etc)
+- Document your process and findings thoroughly. This include:
+  - Reference Architecture Diagrams 
+  - Summary statistics on the data, ETL process ..etc 
+
+- Consider any additional useful transformations or features that can add value to your analysis. 
+  - Including Data Enrichment 
+  - Utilization of external data such as weather data, traffic data, tourist data ..etc
+
+
+## Deliverables 
+
+* Your code in a GitHub Repo with a proper README.md file 
+* A 15-20 minute presentation allowing for 5-minute Q&A 
+* Your presentation will showcase your data storytelling capability utilizing data visualization, reference architecture diagrams, and any supporting visuals 
 
 Good luck with your capstone project!
 
