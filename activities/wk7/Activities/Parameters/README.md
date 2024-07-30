@@ -20,7 +20,7 @@
 
 Make sure the view is full screen
 
-![image-20240730133848239](images/image-20240730133848239.png)
+![image-20240730171215196](images/image-20240730171215196.png)
 
 **Create a Products Hierarchy and a Geography Hierarchy**
 
