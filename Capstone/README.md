@@ -49,7 +49,7 @@ You will work with the provided datasets, which include data dictionary files an
    
        - Example: `s3://capstone-techcatalyst-conformed/<YOURNAME>/hvfhv_data/year=2024/month=05/day=01/`
    
-3. **Additional Transformations**
+3. **Additional Transformations** (Add any additional you will require)
    - Calculate Trip Duration.
    - Calculate Trip Distance % of Total Trip Distance for the day.
    - Calculate Trip Duration % of Total Time Spent Active for the day.
@@ -110,8 +110,8 @@ You will work with the provided datasets, which include data dictionary files an
    - Data Exploration in Snowflake:
      - Use SQL queries to explore the data and identify patterns.
      - Remember some advanced analysis techniques such as Window Functions: Ranking, Lag, Moving Windows ..etc.
-7. **Final Analysis Using Tableau**
-   - Connect Tableau to Snowflake.
+7. **Final Analysis Using Tableau or ThoughtSpot**
+   - Connect Tableau/ThoughtSpot to Snowflake.
    - Create dashboards to visualize and analyze the data.
 
 #### Additional Considerations
@@ -125,6 +125,9 @@ You will work with the provided datasets, which include data dictionary files an
 - Consider any additional useful transformations or features that can add value to your analysis. 
   - Including Data Enrichment 
 - <u>Utilization of **external data** such as weather data, traffic data, tourist data, social media posts ..etc</u>
+- In Snowflake, ensure that you create **VIEWs to support your data analytics needs** per the selected use case.
+- Submit an **architecture diagram** of what has been delivered.
+- Propose a **Future State** plan for the next phase, suggesting further enhancements beyond this MVP. Each group should outline what can be done, how it can be achieved, and provide a diagram with estimated timelines and effort required.
 
 
 ## Deliverables 
@@ -132,6 +135,8 @@ You will work with the provided datasets, which include data dictionary files an
 * Your code in a GitHub Repo with a proper README.md file 
 * A 15-20 minute presentation allowing for 5-minute Q&A 
 * Your presentation will showcase your data storytelling capability utilizing data visualization, reference architecture diagrams, and any supporting visuals 
+* **Architecture diagram** of the delivered solution.
+* **Future State proposal**, including diagrams and estimated timelines/effort for further enhancements.
 
 Good luck with your capstone project!
 
